@@ -4,11 +4,9 @@ html, body{
 
 body{
     background-color: #FFBA20;
+    
 }/*Ferramentas ultrapassam o tamanho do body*/
 
-main{
-    overflow-x: hidden;
-}
 
 ::selection{
     color: #0C0032;
@@ -155,18 +153,19 @@ main{
 .container_chamada{
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .ferramentas{
     z-index: 0;
     width: 40%;
-    margin-left: 10%;
+    height: 625px;
+    text-align: end;
 }
 .ferramentas img{
     position: relative;
-    top: 175px;
-    width: 140%;
-    transform: rotate(60deg);
+    top:15px;
+    width: 90%;
  }
 
 .container_produto{
@@ -474,14 +473,9 @@ main{
         font-size: 40px;
     } 
 
-    html{
-        overflow-x: hidden;/*imagem das ferramentas fica absolute e cria um overflow*/
-        
-    }
-
     .ferramentas{
         position: absolute;
-        right: 35px;
+        right: 0px;
         top: 50px;
     }
     .chamada{
@@ -638,13 +632,13 @@ main{
     }
 
     .produto_individual .conteudo_before p{
-        font-size:34px;
+        font-size:30px;
         margin-top: 3%;
     }
     
     
     .produto_individual .conteudo_before h2{
-        font-size: 54px;
+        font-size: 40px;
     }
 
     .produto_individual img{
