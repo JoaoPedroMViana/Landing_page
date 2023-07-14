@@ -434,20 +434,17 @@ body{
     margin-bottom: 3px;
 }
 
-.contato a > img[href*="whatsapp"]:hover{
-    widht: 38px;
+.contato a > img[src*="whatsapp"]:hover{
     background-color: #0C0032;
     border: #0C0032 solid 3px;
 }
 
-.contato a > img[href*="instagram"]:hover{
-    widht: 38px;
+.contato a > img[src*="instagram"]:hover{
     background-color: #0C0032;
     border: #0C0032 solid 3px;
 }
 
-.contato a > img[href*="facebook"]:hover{
-    widht: 38px;
+.contato a > img[src*="facebook"]:hover{
     background-color: #0C0032;
     border: #0C0032 solid 3px;
 }
