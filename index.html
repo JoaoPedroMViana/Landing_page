@@ -6,8 +6,8 @@
     <meta name="author" content="João Pedro">
     <meta name="description" content="Landing page da Loja Rocha Ferragen.">
     <meta name="keywords" content="Ferragem, Rocha Ferragens, Loja">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +45,7 @@
             </div><!--navegação secundaria-->
         </nav><!--navegação-->
         <div class="logo">
-            <img src="img/LOGO.png" alt="Logo da Loja">
+            <img src="src/img/LOGO.png" alt="Logo da Loja">
         </div><!--logo-->
     </header><!--cabeçalho-->
     <main class="conteudo-principal">
@@ -60,14 +60,14 @@
                 </div><!--botão-->
             </section><!--chamada-->
             <section class="ferramentas">
-                <img src="img/Ferramentas-removebg.png" alt="Ferramentas">
+                <img src="src/img/Ferramentas-removebg.png" alt="Ferramentas">
             </section><!--ferramentas-->
         </div><!--container chamada-->
         <div class="container_produto">
             <h2>Produtos</h2><!--titulo conteiner-->
             <div class="produtos">
                 <div class="produto_individual">
-                    <img src="img/furadeira.png" alt="Imagem furadeira">
+                    <img src="src/img/furadeira.png" alt="Imagem furadeira">
                     <div class="conteudo_before">
                         <h2>Furadeira</h2>
                         <p><u>Preço:</u> R$ X,00</p>
@@ -75,7 +75,7 @@
                     </div><!--conteudo before-->
                 </div><!--produto individual-->
                 <div class="produto_individual">
-                    <img src="img/lampada.png" alt="Imagem lampada">
+                    <img src="src/img/lampada.png" alt="Imagem lampada">
                     <div class="conteudo_before">
                         <h2>Lampada</h2>
                         <p><u>Preço:</u> R$ X,00</p>
@@ -83,7 +83,7 @@
                     </div><!--conteudo before-->
                 </div><!--produto individual-->
                 <div class="produto_individual">
-                    <img src="img/trena.png" alt="Imagem trena">
+                    <img src="src/img/trena.png" alt="Imagem trena">
                     <div class="conteudo_before">
                         <h2>Trena</h2>
                         <p><u>Preço:</u> R$ X,00</p>
@@ -91,7 +91,7 @@
                     </div><!--conteudo before-->
                 </div><!--produto individual-->
                 <div class="produto_individual">
-                    <img src="img/lata_tinta.png" alt="Imagem lata de tinta">
+                    <img src="src/img/lata_tinta.png" alt="Imagem lata de tinta">
                     <div class="conteudo_before">
                         <h2>Lata de tinta</h2>
                         <p><u>Preço:</u> R$ X,00</p>
@@ -100,12 +100,69 @@
                 </div><!--produto individual-->
             </div><!--produtos-->
         </div><!--container produto-->
-    </main><!--conteúdo principal-->
-    <div class="bg_principal">
+        <div class="container_sobre">
+            <h2>Sobre nós</h2><!--titulo do container-->
+            <div class="conteudo_sobre">
+                <div class="localizacao">
+                    <h2>Localização</h2>
+                    <div class="map">
+                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Av.%20Imperatriz%20Leopoldina,%202274%20S%C3%A3o%20Leopoldo+(Rocha%20Ferragens)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                    </div><!--map-->
+                </div><!--item localização-->
+                <div class="quem-somos">
+                    <h2>Quem somos</h2>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius ipsum eu sapien viverra, nec pellentesque metus ultricies. Maecenas vehicula feugiat lacus quis dignissim. Cras semper leo eu elit sodales, ac pulvinar metus ultrices. Nullam bibendum vestibulum risus, quis egestas arcu scelerisque eu. Etiam vel sapien dictum, faucibus tellus vel, blandit sem. Nunc id lacus cursus, dictum turpis nec, placerat lacus. Cras et quam porttitor, dapibus dui vel, sollicitudin nisi. Nam tempor suscipit orci non cursus. Mauris in ipsum sed tellus convallis fringilla et eget diam. Integer eget porttitor neque, pulvinar porta arcu.</p>
+                        <div class="img"></div>
+                    </div>
+                </div><!--item quem somos-->
+                <div class="equipe">
+                    <h2>Equipe</h2>
+                    <div>
+                        <div class="funcionarios">
+                            <div>
+                                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/user-male--v1.png" alt="user-male--v1"/>
+                                <h2>Alexssandro</h2>
+                                <p>/ Cargo: Gerente</p>
+                            </div>
+                            <div>
+                                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/user-male--v1.png" alt="user-male--v1"/>
+                                <h2>Gustavo</h2>
+                                <p>/ Cargo: Balconista</p>
+                            </div>
+                            <div>
+                                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/user-male--v1.png" alt="user-male--v1"/>
+                                <h2>Lucas</h2>
+                                <p>/ Cargo: Balconista</p>
+                            </div>
+                        </div><!--funcionarios-->
+                        <img src="src/img/Foto-loja-2.JPG" alt=""><!--imagem loja-->
+                    </div><!--conteudo-->
+                </div><!--item equipe-->
+            </div><!--conteudo sobre-->
+        </div><!--container sobre-->
+        <div class="bg_principal">
             <div class="grudenta">
-                <img class="bg1"src="img/bg1.png" alt="plano de fundo">
-                <img class="bg2" src="img/bg2.png" alt="plano de fundo">
+                <img class="bg1"src="src/img/bg1.png" alt="plano de fundo">
+                <img class="bg2" src="src/img/bg2.png" alt="plano de fundo">
             </div>
-    </div><!--bg principal-->
+        </div><!--bg principal-->
+    </main><!--conteúdo principal-->
+    <footer class="footer">
+        <img src="src/img/Cabeça_parafuso.png" alt="Cabecça de parafuso">
+        <div>
+            <p>©Todos os direitros reservados</p>
+            <img src="src/img/LOGO.png" alt="Logo Rocha Ferragens">
+        </div>
+        <img src="src/img/Cabeça_parafuso.png" alt="Cabecça de parafuso">
+    </footer><!--footer-->
+    <div class="contato">
+        <a target="_blank
+        " href="https://api.whatsapp.com/send?phone=555185404389&fbclid=PAAaaa64B-BBH2LVH89B0APVxZpkKinQ1sos4tF-qOJifcWsLVcAFUe6alA2k"><img src="src/img/whatsapp.png" alt="Link whatsapp"></a>
+        <a target="_blank
+        " href="https://instagram.com/rochaferragens?igshid=MzRlODBiNWFlZA=="><img src="src/img/instagram.png" alt="Link instagram"></a>
+        <a target="_blank
+        " href="https://m.facebook.com/rocha.ferragens.sl"><img src="src/img/Facebook.png" alt="Link facebook"></a>        
+    </div><!--contato com position fixed-->
 </body>
 </html>
