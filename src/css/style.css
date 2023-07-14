@@ -423,6 +423,7 @@ body{
     right: 3px;
     bottom: 15%;
     align-items: center;
+    z-index: 4;
 }
 
 .contato a > img{
@@ -431,22 +432,21 @@ body{
     border: #FFBA20 solid 2px;
     width: 35px;
     margin-bottom: 3px;
-    z-index: 4;
 }
 
-.contato a > img[href=*whatsapp]:hover{
+.contato a > img[href*="whatsapp"]:hover{
     widht: 38px;
     background-color: #0C0032;
     border: #0C0032 solid 3px;
 }
 
-.contato a > img[href=*instagram]:hover{
+.contato a > img[href*="instagram"]:hover{
     widht: 38px;
     background-color: #0C0032;
     border: #0C0032 solid 3px;
 }
 
-.contato a > img[href=*facebook]:hover{
+.contato a > img[href*="facebook"]:hover{
     widht: 38px;
     background-color: #0C0032;
     border: #0C0032 solid 3px;
