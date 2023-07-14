@@ -3,9 +3,8 @@ html, body{
 }
 
 body{
-    background-color: #FFBA20;
-    
-}/*Ferramentas ultrapassam o tamanho do body*/
+    background-color: #FFBA20;  
+}
 
 ::selection{
     color: #0C0032;
@@ -432,8 +431,26 @@ body{
     border: #FFBA20 solid 2px;
     width: 35px;
     margin-bottom: 3px;
+    z-index: 4;
 }
 
+.contato a > img[href=*whatsapp]:hover{
+    widht: 38px;
+    background-color: #0C0032;
+    border: #0C0032 solid 3px;
+}
+
+.contato a > img[href=*instagram]:hover{
+    widht: 38px;
+    background-color: #0C0032;
+    border: #0C0032 solid 3px;
+}
+
+.contato a > img[href=*facebook]:hover{
+    widht: 38px;
+    background-color: #0C0032;
+    border: #0C0032 solid 3px;
+}
 
 /* Media queries*/
 
