@@ -7,7 +7,6 @@ body{
     
 }/*Ferramentas ultrapassam o tamanho do body*/
 
-
 ::selection{
     color: #0C0032;
     background-color: #FFBA20;
@@ -431,7 +430,7 @@ body{
     border-radius: 50%;
     background-color: #FFBA20;
     border: #FFBA20 solid 2px;
-    width: 30px;
+    width: 35px;
     margin-bottom: 3px;
 }
 
@@ -685,6 +684,10 @@ body{
 
     .footer img{
         width: 6%;
+    }
+
+    .contato a > img{
+    width: 50px;
     }
 }
 
